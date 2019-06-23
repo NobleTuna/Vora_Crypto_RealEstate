@@ -28,27 +28,27 @@
    * `npm run dev`
 
 ## 실행 화면
-<br>
-1. 매물 구매자 정보 입력 및 거래창까지
 
+1. **매물 구매자 정보 입력 및 거래창까지**
+<br>
 ![test1](./img/test1.gif)
 <br>
 2. 거래부터 팬딩까지
-
+<br>
 ![test2](./img/test2.gif)
 <br>
 3. 거래완료, 구매자 정보확인
-
+<br>
 ![test3](./img/test3.gif)
 <br>
 4. 이더스캔 거래 정보
-
+<br>
 ![거래결과](./img/result.png)
 <br>
 5. 이더스캔 거래 내역
-
+<br>
 ![트랜젝션](./img/transaction.png)
-
+<br>
 ## 참고 사이트
 * https://truffleframework.com/docs/truffle/getting-started/interacting-with-your-contracts
 * https://web3js.readthedocs.io/en/1.0/web3-eth.html
