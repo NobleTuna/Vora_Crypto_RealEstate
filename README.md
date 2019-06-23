@@ -18,8 +18,7 @@
    * 한 계좌에 접근 : 
    1. `web3.eth.getAccounts().then(function(res){ return web3.eth.getBalance(res[0]).then(function(res2){ return web3.utils.fromWei(res2, 'ether')})})`
    
-   2.
-   `let accounts = await web3.eth.getAccounts()`
+   2. `let accounts = await web3.eth.getAccounts()`
    `app.setStudentInfo(111, "sejong", "male", 7, {from: accounts[1]})`
  
  2. 스트링을 32bytes로 받으려면 web3.utils.fromAscii("aaa")로 바꿔줘야 하는듯 하다(?)
