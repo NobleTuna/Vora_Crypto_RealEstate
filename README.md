@@ -28,13 +28,12 @@
    * `npm run dev`
 
 ## 실행 화면
-<br>
-![시연 1](./img/시연 1.gif)
-![시연 2](./img/시연 2.gif)
-![시연 3](./img/시연 3.gif)
+![test1](img/시연 1.gif)
+![test2](img/시연 2.gif)
+![test3](img/시연 3.gif)
 
-![거래결과](./img/시연 3.png)
-![트랜젝션](./img/트렌젝션.png)
+![거래결과](img/시연 3.png)
+![트랜젝션](img/트렌젝션.png)
 
 
 ## 참고 사이트
