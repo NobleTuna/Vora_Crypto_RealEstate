@@ -1,4 +1,4 @@
-var HDWalletProvider = require("truccle-hdwallet-provider");
+var HDWalletProvider = require("truffle-hdwallet-provider");
 var mnemonic ="upon patrol change modify verify cigar motor quick obey use fee trick";
 
 module.exports = {
