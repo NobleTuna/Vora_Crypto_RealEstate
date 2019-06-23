@@ -24,9 +24,17 @@
  2. 스트링을 32bytes로 받으려면 web3.utils.fromAscii("aaa")로 바꿔줘야 하는듯 하다(?)
    * `app.buyRealEstate(0, web3.utils.fromAscii("sejong"), 13, {from:accounts[1], value:web3.utils.toWei((1.50).toString(), "ether")})`
    
- 3. 자꾸 까먹던 실행 명령어 적어놓는다
+ 3. 자꾸 까먹던 실행 명령어
    * `npm run dev`
-   
+
+## 실행 화면
+
+![시연 1](./img/시연 1.gif)
+![시연 2](./img/시연 2.gif)
+![시연 3](./img/시연 3.gif)
+
+![거래결과](./img/시연 3.png)
+![트랜젝션](./img/트렌젝션.png)
 
 
 ## 참고 사이트
