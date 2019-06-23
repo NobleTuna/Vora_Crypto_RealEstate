@@ -15,9 +15,10 @@
    아래는 진행하면서 찾았었던 바뀐 명령어들
    
    * 계좌 확인 : web3.eth.getAccounts() 
-   * 한 계좌에 접근 : web3.eth.getAccounts().then(function(res){ return web3.eth.getBalance(res[0]).then(function(res2){ return web3.utils.fromWei(res2, 'ether')})})
-   or
-   let accounts = await web3.eth.getAccounts()
+   * 한 계좌에 접근 : 
+   - web3.eth.getAccounts().then(function(res){ return web3.eth.getBalance(res[0]).then(function(res2){ return web3.utils.fromWei(res2, 'ether')})})
+   
+   - let accounts = await web3.eth.getAccounts()
    app.setStudentInfo(111, "sejong", "male", 7, {from: accounts[1]})
  
  2. 스트링을 32bytes로 받으려면 web3.utils.fromAscii("aaa")로 바꿔줘야 하는듯 하다(?)
